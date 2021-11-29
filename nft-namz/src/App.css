@@ -1,0 +1,186 @@
+.App {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.31)),
+		url(./assets/nick-jio-57rD2oDZquc-unsplash.jpg);
+	background-size: cover;
+	/* background-color: #0d1116; */
+	overflow: scroll;
+	text-align: center;
+
+	display: grid;
+	grid-template-columns: 1fr minmax(min-content, 4fr) 1fr;
+}
+
+.container {
+	height: 100%;
+	/* background-color: #0d1116; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	grid-column: 2;
+}
+
+.header-container {
+	padding-top: 60px;
+}
+
+.header {
+	margin: 0;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.collection:hover {
+	cursor: pointer;
+	color: antiquewhite;
+}
+
+.sub-text {
+	font-size: 25px;
+	color: white;
+}
+
+.gradient-text {
+	background: -webkit-linear-gradient(left, #f7fd04 35%, #ffa900 55%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient-animation 4s ease infinite;
+}
+
+.cta-button {
+	height: 45px;
+	border: 0;
+	width: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0f2c67;
+}
+
+.connect-wallet-button {
+	background: -webkit-linear-gradient(left, #f7fd04, #ffa900);
+	background-size: 200% 200%;
+	animation: gradient-animation 4s ease infinite;
+}
+
+.mint-button {
+	background: -webkit-linear-gradient(left, #ffa900, #f7fd04);
+	background-size: 200% 200%;
+	animation: gradient-animation 4s ease infinite;
+	margin-right: 15px;
+}
+
+.opensea-button {
+	background-color: rgb(32, 129, 226);
+}
+
+.opensea-container {
+	margin: 50px;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.31);
+	border-radius: 10px;
+	color: azure;
+}
+
+.opensea-container a {
+	font-weight: 600;
+	font-size: 23px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.opensea-container a:hover {
+	transition: all 0.2s;
+	color: #ffaa007b;
+}
+
+.nft-info {
+	display: flex;
+	justify-content: space-around;
+}
+
+.view-collection {
+	background: rgba(0, 0, 255, 0.584);
+	color: rgba(245, 245, 245, 0.735);
+	padding: 20px;
+	border-radius: 10px;
+	font-weight: 600;
+	outline: none;
+	font-size: 16px;
+}
+
+.view-collection:hover {
+	background: rgba(0, 0, 255, 0.742);
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.nft-Total {
+	background-color: rgba(0, 0, 0, 0.31);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.mint-count {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.twitter-logo {
+	width: 35px;
+	height: 35px;
+}
+
+.footer-text {
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@-moz-keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
