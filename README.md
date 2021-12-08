@@ -9,6 +9,7 @@ This site allows you to mint an NFT with a randomly generated nickname.
 ### Links
 
 - Live Site URL: [Live Site](https://suspicious-pasteur-b73c61.netlify.app)
+- Smart Contract Repo: [NFT Contract](https://github.com/itsreallydrew/nft-demo)
 
 ## My process
 
